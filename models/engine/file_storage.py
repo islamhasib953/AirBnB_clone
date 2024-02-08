@@ -26,7 +26,7 @@ class FileStorage:
         """
         dictionary_obj = {}
         for key, val in FileStorage.__objects.items():
-            dictionary_obj[key] = val
+            dictionary_obj[key] = val.to_dict()
         with open(FileStorage.__file_path, "w") as f:
             json.dump(dictionary_obj, f)
     
