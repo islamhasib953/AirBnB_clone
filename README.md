@@ -27,7 +27,7 @@
 
  - `update <class name> <id> <attribute name> "<attribute value>"` Updates an instance based on the class name and id by adding or updating attribute (save the change into the JSON file). Ex: $ update BaseModel 1234-1234-1234 email "aibnb@mail.com"
 
- - `<Class_Name>.all()` Prints all string representation of all instances based class name Ez: $ User.all()
+ - `<Class_Name>.all()` Prints all string representation of all instances based class name Ex: $ User.all()
  - `<class name>.count()` Print the number of instance for class name Ex: $User.count()
 
  - ``
