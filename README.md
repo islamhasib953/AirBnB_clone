@@ -8,3 +8,14 @@
  The console operates on specific commands, allowing users to execute operations such as object creation, display, modification, and deletion. Furthermore, the project incorporates a basic file storage system utilizing the FileStorage class for serialization and deserialization of instances.
 
  Written in Python, the project is interpreted and tested on Ubuntu 14.04 LTS using Python3.
+
+# Description of the command interpreter:
+ The console functions as the chief interpreter within our AirBnB clone venture, entrusted with the supervision of object handling. Its capabilities extend across a broad spectrum of tasks, ranging from object inception, retrieval from various data sources, manipulation, attribute adjustments, elimination, and beyond.
+
+## How to start it:
+ navigate in the directory and enter this command: ./console.py
+## How to use it:
+ our console can do this things:
+ - ** [1]create <Class_Name>: Creates a new instance of BaseModel, saves it (to the JSON file) an
+ prints the id. Ex: $ create BaseModel 
+## Examples
