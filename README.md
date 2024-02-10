@@ -37,3 +37,4 @@
  - `<class name>.update(<id>, <attribute name>, <attribute value>)` Update an instance based on his ID Ex: User.update("38f22813-2753-4d42-b37c-57a17f1e4f88", "first_name", "John")
 
 ## Examples
+![Examples](https://github.com/islamhasib953/AirBnB_clone/blob/main/Screenshot%20from%202024-02-10%2020-46-59.png)
