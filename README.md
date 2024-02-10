@@ -30,6 +30,10 @@
  - `<Class_Name>.all()` Prints all string representation of all instances based class name Ex: $ User.all()
  - `<class name>.count()` Print the number of instance for class name Ex: $User.count()
 
- - ``
+ - `<class name>.show(<id>)` Prints the string representation retrieve an instance based on its ID Ex: User.show("246c227a-d5c1-403d-9bc7-6a47bb9f0f68")
+
+ - `<class name>.destroy(<id>)` Destroy an instance based on his ID Ex: User.destroy("246c227a-d5c1-403d-9bc7-6a47bb9f0f68")
+
+ - `<class name>.update(<id>, <attribute name>, <attribute value>)` Update an instance based on his ID Ex: User.update("38f22813-2753-4d42-b37c-57a17f1e4f88", "first_name", "John")
 
 ## Examples

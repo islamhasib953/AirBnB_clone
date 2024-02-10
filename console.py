@@ -119,7 +119,7 @@ class HBNBCommand(cmd.Cmd):
         else:
             if args[2] not in HBNBCommand.attribute:
                 setattr(storage.all()[args[0] + "." + args[1]], args[2], args[3])
-                storage.save()
+                storage.all()[args[0] + "." + args[1]].save()
 
     def default(self, line: str) -> None:
         line = line.split(".")

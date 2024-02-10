@@ -58,3 +58,5 @@ class TestConsol(unittest.TestCase):
         self.assertEqual(len(class_attributes4), 3)
         self.assertEqual(len(class_attributes5), 5)
         self.assertEqual(len(class_attributes6), 4)
+if __name__ == "__main__":
+    unittest.main()
